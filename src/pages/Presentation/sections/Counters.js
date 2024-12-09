@@ -31,10 +31,10 @@ function Counters() {
         <Grid container item xs={12} lg={9} sx={{ mx: "auto" }}>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
-              count={70}
+              count={100}
               suffix="+"
-              title="Coded Elements"
-              description="From buttons, to inputs, navbars, alerts or cards, you are covered"
+              title="Satisfied Customers"
+              description="Our guests rave about the unforgettable experiences, comfortable stays, and stunning nature. Join the growing community of adventure lovers who’ve made memories with us!"
             />
           </Grid>
           <Grid item xs={12} md={4} display="flex">
@@ -42,16 +42,16 @@ function Counters() {
             <DefaultCounterCard
               count={15}
               suffix="+"
-              title="Design Blocks"
-              description="Mix the sections, change the colors and unleash your creativity"
+              title="Types of Stays"
+              description="From cozy glamping tents to fully equipped cabins and traditional campsites, we offer a range of stays to suit every adventurer’s style and comfort level."
             />
             <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
           </Grid>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
-              count={4}
-              title="Pages"
-              description="Save 3-4 weeks of work when you use our pre-made pages for your website"
+              count={10}
+              title="Types of Activities"
+              description="Whether you’re hiking, kayaking, stargazing, or zip-lining, there’s an adventure for everyone. Explore our diverse range of outdoor activities for all skill levels."
             />
           </Grid>
         </Grid>

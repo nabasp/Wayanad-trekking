@@ -108,12 +108,12 @@ const routes = [
     ],
   },
   {
-    name: "sections",
+    name: "Our Stays",
     icon: <Icon>view_day</Icon>,
     collapse: [
       {
-        name: "page sections",
-        description: "See all sections",
+        name: "Classic Tent Camping",
+        description: "See all options",
         dropdown: true,
         collapse: [
           {
@@ -129,7 +129,7 @@ const routes = [
         ],
       },
       {
-        name: "navigation",
+        name: "A-Frame Cabins",
         description: "See all navigations",
         dropdown: true,
         collapse: [
@@ -151,7 +151,7 @@ const routes = [
         ],
       },
       {
-        name: "input areas",
+        name: "Bunkhouses",
         description: "See all input areas",
         dropdown: true,
         collapse: [
@@ -168,7 +168,7 @@ const routes = [
         ],
       },
       {
-        name: "attention catchers",
+        name: "Treehouses",
         description: "See all examples",
         dropdown: true,
         collapse: [
@@ -239,33 +239,7 @@ const routes = [
     ],
   },
   {
-    name: "docs",
-    icon: <Icon>article</Icon>,
-    collapse: [
-      {
-        name: "getting started",
-        description: "All about overview, quick start, license and contents",
-        href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/",
-      },
-      {
-        name: "foundation",
-        description: "See our colors, icons and typography",
-        href: "https://www.creative-tim.com/learning-lab/react/colors/material-kit/",
-      },
-      {
-        name: "components",
-        description: "Explore our collection of fully designed components",
-        href: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
-      },
-      {
-        name: "plugins",
-        description: "Check how you can integrate our plugins",
-        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
-      },
-    ],
-  },
-  {
-    name: "github",
+    name: "Message Us",
     icon: <GitHubIcon />,
     href: "https://www.github.com/creativetimofficial/material-kit-react",
   },

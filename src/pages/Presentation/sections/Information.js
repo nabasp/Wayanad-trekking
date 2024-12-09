@@ -42,21 +42,21 @@ function Information() {
                 icon="touch_app"
                 title={
                   <>
-                    Feel the
+                    Conquer the
                     <br />
-                    Material Kit
+                    Trails of Wayanad
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="Embark on an unforgettable trek through Wayanad's breathtaking landscapes."
               />
               <RotatingCardBack
                 image={bgBack}
                 title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                description="From the scenic Chembra Peak to the historic Edakkal Caves, our guided trekking tours take you through lush forests, waterfalls, and panoramic mountain views."
                 action={{
                   type: "internal",
                   route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  label: "Book Us",
                 }}
               />
             </RotatingCard>
@@ -66,16 +66,30 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  title="Customized Adventure Packages"
+                  description={
+                    <>
+                      Tailored Adventures for Every Type of Traveler
+                      <br />
+                      From family-friendly walks to intense treks for thrill-seekers, our adventure
+                      packages are customized to suit your preferences. Let us design your dream
+                      adventure in Wayanad!
+                    </>
+                  }
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  title="Sustainable Stays"
+                  description={
+                    <>
+                      Stay in Harmony with Nature
+                      <br />
+                      Enjoy eco-friendly accommodations that respect nature while offering comfort.
+                      Our green initiatives make your stay sustainable and memorable.
+                    </>
+                  }
                 />
               </Grid>
             </Grid>
@@ -83,15 +97,29 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  title="Expert Local Guides"
+                  description={
+                    <>
+                      Discover Wayanad with Our Expert Guides
+                      <br />
+                      Our knowledgeable, local guides will show you the best of Wayanad, ensuring a
+                      safe and insightful experience on every trail.
+                    </>
+                  }
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  title="Exclusive Trekking Trails"
+                  description={
+                    <>
+                      Explore Hidden Trails & Scenic Views
+                      <br />
+                      Step off the beaten path and explore Wayanad’s secret trails, waterfalls, and
+                      viewpoints with our exclusive trekking routes.
+                    </>
+                  }
                 />
               </Grid>
             </Grid>

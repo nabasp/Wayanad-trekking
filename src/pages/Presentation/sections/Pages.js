@@ -60,11 +60,12 @@ function Pages() {
             sx={{ mb: 2 }}
           />
           <MKTypography variant="h2" fontWeight="bold">
-            With our coded pages
+            Tailored Adventure Packages for Every Traveler
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            The easiest way to get started is to use one of our
-            <br /> pre-built example pages.
+            Choose from our specially curated adventure packages, designed to offer the best of
+            nature, comfort, and thrilling experiences. Perfect for families, couples, or solo
+            explorers looking for a hassle-free getaway.
           </MKTypography>
         </Grid>
       </Container>
@@ -78,11 +79,12 @@ function Pages() {
           <Grid item xs={12} lg={3}>
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                Presentation Pages for Company, Landing Pages, Blogs and Support
+                Unique Stays to Suit Every Adventurer
               </MKTypography>
               <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
-                These is just a small selection of the multiple possibitilies you have. Focus on the
-                business, not on the design.
+                From luxury glamping to rustic cabins, we offer a range of accommodations that
+                provide comfort, privacy, and a close connection with nature. Find your perfect stay
+                and enjoy an unforgettable experience.
               </MKTypography>
             </MKBox>
           </Grid>

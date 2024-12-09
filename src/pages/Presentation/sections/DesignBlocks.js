@@ -78,11 +78,12 @@ function DesignBlocks() {
             sx={{ mb: 2 }}
           />
           <MKTypography variant="h2" fontWeight="bold">
-            Huge collection of sections
+            Explore Our Range of Unique Stays
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            We have created multiple options for you to put together and customise into pixel
-            perfect pages.
+            Whether you&apos;re seeking adventure or relaxation, our stays cater to all tastes and
+            preferences. Explore our diverse options and exciting activities, and plan your perfect
+            getaway today!
           </MKTypography>
         </Grid>
       </Container>
